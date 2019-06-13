@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="380.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.DashboardController">
+   <children>
+      <ImageView fitHeight="380.0" fitWidth="353.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/bg3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dashboardProfileImageID" fitHeight="101.0" fitWidth="89.0" layoutX="40.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/avatar-white.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="19.0" fitWidth="155.0" layoutX="474.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/ciitrooms.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="dashboardNameID" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="38.0" layoutY="137.0" text="Juan Dela Cruz" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Montserrat-Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="dashboardStudentNumberID" alignment="CENTER" contentDisplay="CENTER" layoutX="55.0" layoutY="154.0" text="17-171234" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Montserrat-Regular" size="13.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="logoutBtnID" alignment="TOP_LEFT" focusTraversable="false" layoutX="38.0" layoutY="312.0" prefHeight="27.0" prefWidth="198.0" text="Logout" textFill="WHITE">
+         <font>
+            <Font name="Montserrat-Regular" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="searchRoomBtnID" alignment="TOP_LEFT" focusTraversable="false" layoutX="38.0" layoutY="279.0" prefHeight="27.0" prefWidth="198.0" text="Search Room Availability" textFill="WHITE">
+         <font>
+            <Font name="Montserrat-Regular" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="reservationBtnID" alignment="TOP_LEFT" focusTraversable="false" layoutX="40.0" layoutY="245.0" prefHeight="27.0" prefWidth="198.0" text="Reservation History" textFill="WHITE">
+         <font>
+            <Font name="Montserrat-Regular" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="dashboardBtnID" alignment="TOP_LEFT" focusTraversable="false" layoutX="40.0" layoutY="210.0" prefHeight="27.0" prefWidth="198.0" text="Dashboard" textFill="WHITE">
+         <font>
+            <Font name="Montserrat-Regular" size="13.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-dashboard-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-time-machine-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-search-64%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-shutdown-64.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
