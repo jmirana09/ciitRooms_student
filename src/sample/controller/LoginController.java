@@ -57,6 +57,7 @@ public class LoginController implements Initializable {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+            //just for push in git
 
             Stage dashboardStage = new Stage();
             Parent root = loader.getRoot();
