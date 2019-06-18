@@ -10,8 +10,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="630.0"
-            xmlns="http://javafx.com/javafx/8.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.LoginController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.LoginController">
    <children>
       <ImageView fitHeight="380.0" fitWidth="681.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -50,7 +49,7 @@
             <Font name="Montserrat-Regular" size="24.0" />
          </font>
       </Label>
-      <JFXButton fx:id="loginBtnID" alignment="CENTER" contentDisplay="CENTER" layoutX="340.0" layoutY="241.0" prefHeight="32.0" prefWidth="200.0" style="-fx-background-color: #00364D;" text="Login" textFill="WHITE">
+      <JFXButton fx:id="loginBtnID" alignment="CENTER" contentDisplay="CENTER" layoutX="340.0" layoutY="241.0" onAction="#buttonPressed" prefHeight="32.0" prefWidth="200.0" style="-fx-background-color: #00364D;" text="Login" textFill="WHITE">
          <font>
             <Font name="Montserrat-Regular" size="11.0" />
          </font>

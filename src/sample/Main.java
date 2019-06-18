@@ -34,6 +34,7 @@ public class Main extends Application {
 
        //updateDB("Joe","Mirana", "joebend","ciit123!", 1);
         deleteUserFromDB(2);
+        //writeToDB();
     }
 
 
